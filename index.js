@@ -60,9 +60,14 @@ app.post('/student', (req, res) => {
                 result: result.rows[0],
             });
         });
-    });
+     });
 
 });
+
+app.get('/student/:id', (req,res) => {
+    const id = req.params.id;
+    res.send(`Student ${id} profile`);
+  });
 
 app.listen(port, () => {
     console.log(`We are live at 127.0.0.1:${port}`);
