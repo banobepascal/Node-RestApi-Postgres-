@@ -45,4 +45,6 @@ pool.on('remove', () => {
 module.exports = {
     createTables, 
     pool,
-}
+};
+
+require('make-runnable')
