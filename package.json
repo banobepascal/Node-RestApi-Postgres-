@@ -4,6 +4,8 @@
   "description": "Node Api with Postgres",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "create": "node ./services/db createTables"
   },
   "author": "Banobe Pascal",

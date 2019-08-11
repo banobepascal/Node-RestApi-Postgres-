@@ -5,5 +5,9 @@ const port = process.env.PORT || 3000;
 
 // Add route code here
 app.get('/', (res, res) => {
-    res.send
+    res.send('Welcome to our School API');
+});
+
+app.listen(port, () => {
+    console.log(`We are live at 127.0.0.1:${port}`);
 });
