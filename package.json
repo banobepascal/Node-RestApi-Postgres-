@@ -1,0 +1,15 @@
+{
+  "name": "post-api",
+  "version": "1.0.0",
+  "description": "Node Api with Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Banobe Pascal",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.1",
+    "pg": "^7.12.1"
+  }
+}
